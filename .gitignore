@@ -162,9 +162,9 @@ cython_debug/
 .DS_Store
 
 # Added by @dkhundley
-lambdas/langchain_layer/
+lambdas/langchain_layer/*
 !lambdas/langchain_layer/requirements.txt
-lambdas/openai_layer/
+lambdas/openai_layer/*
 !lambdas/openai_layer/requirements.txt
 opentofu/.terraform/*
 opentofu/terraform.tfstate
