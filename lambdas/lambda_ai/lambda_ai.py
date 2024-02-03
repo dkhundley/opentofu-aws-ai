@@ -1,7 +1,7 @@
 import os
 import json
 import boto3
-# from langchain_core.messages.human import HumanMessage
+from langchain_core.messages.human import HumanMessage
 # from langchain_community.chat_models import BedrockChat
 
 def lambda_handler(event, context):
