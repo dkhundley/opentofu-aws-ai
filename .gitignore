@@ -167,8 +167,10 @@ lambdas/langchain_layer/*
 lambdas/openai_layer/*
 !lambdas/openai_layer/requirements.txt
 lambdas/*.zip
-opentofu/.terraform/*
+opentofu/.terraform/
 opentofu/terraform.tfstate
 opentofo/terraform.tfstate.backup
 opentofu/.terraform.lock.hcl
 opentofu/.terraform.tfstate.lock.info
+terraform.tfstate.*
+.terraform/*
