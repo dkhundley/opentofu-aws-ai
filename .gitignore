@@ -169,4 +169,4 @@ lambdas/openai_layer/*
 opentofu/.terraform/*
 opentofu/terraform.tfstate
 opentofo/terraform.tfstate.backup
-opentofu/.terraform.lock.
+opentofu/.terraform.lock.hcl
