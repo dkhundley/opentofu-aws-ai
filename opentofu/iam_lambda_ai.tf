@@ -18,7 +18,8 @@ data "aws_iam_policy_document" "lambda_ai_policy_document" {
             "logs:PutLogEvents",
             "ec2:CreateNetworkInterface",
             "ec2:DescribeNetworkInterfaces",
-            "ec2:DeleteNetworkInterface"
+            "ec2:DeleteNetworkInterface",
+            "bedrock:*"
         ]
         resources = ["*"]
     }
